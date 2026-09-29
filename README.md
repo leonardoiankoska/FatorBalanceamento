@@ -1,17 +1,21 @@
 # Árvore AVL: inserção e remoção
 
+Atividade de Estrutura de Dados sobre Árvore AVL
+
 
 
 **Sequẽncia de inserção:  55, 26, 29, 13, 12, 11, 16, 1, 5, 29, −15, 4, 16, 8, 4, 5, 3, 1312, 100, 88** <br>
 **Sequẽncia de remoção: 4, 29, 100, 5, −15, 16, 55**
 
-Para realizar as inserções, foi seguida a regra da Árvore Binária de Busca, em que os valores menores ficam à esquerda e os valores maiores ficam à direita.
+## Regras Utilizadas:
 
-Para verificar se a árvore estava balanceada, foi considerada a altura das subárvores. A altura corresponde à quantidade de arestas entre um nó e a folha mais distante abaixo dele.
+* Menores á esquerda e maiores á direita
+* Valores repetidos não são inseridos
+* FB = Altura da esquerda - altura da direita
+* Se o FB ficar entre -1 e +1, o nó está balanceado. Se chegar a +2 e -2, é feita uma rotação
+* Remoção de nó com dois filhos: é usado o sucessor de menor valor
 
-Foi utilizado o cálculo:
 
-FB = altura da esquerda − altura da direita
 
 ## 1. Inserções ##
 **1. Inserindo 55**
@@ -132,7 +136,8 @@ O 5 tem 2 filhos, usa-se o 8, que é o menor valor da subárvore direita
 **26. Removendo 16** <br><br><img width="659" height="382" alt="image" src="https://github.com/user-attachments/assets/8642047f-2eee-4a47-83bc-c1565f198e4d" />
 <br>
 
-**27. Removendo 55** <br><br><img width="659" height="382" alt="image" src="https://github.com/user-attachments/assets/2a8c809c-459b-4496-836c-5beb0e0bb1e5" />
+**27. Removendo 55** <br><br><img width="659" height="382" alt="image" src="https://github.com/user-attachments/assets/4c3df76a-b725-46a6-b08f-1a58a40e1994" />
+
 <br> O 55 tem 2 filhos, usa-se o 88, que é o sucessor.
 
 
