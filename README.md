@@ -7,7 +7,7 @@ Atividade de Estrutura de Dados sobre Árvore AVL
 **Sequẽncia de inserção:  55, 26, 29, 13, 12, 11, 16, 1, 5, 29, −15, 4, 16, 8, 4, 5, 3, 1312, 100, 88** <br>
 **Sequẽncia de remoção: 4, 29, 100, 5, −15, 16, 55**
 
-## Regras Utilizadas:
+## Regras Utilizadas  :
 
 * Menores á esquerda e maiores á direita
 * Valores repetidos não são inseridos
