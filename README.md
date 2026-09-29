@@ -13,7 +13,7 @@ Foi utilizado o cálculo:
 
 FB = altura da esquerda − altura da direita
 
-## Inserções ##
+## 1. Inserções ##
 **1. Inserindo 55**
 <br><br>
 <img width="678" height="341" alt="image" src="https://github.com/user-attachments/assets/e91fdd2c-4ef3-47e6-b44b-a63cea831089" />
@@ -110,3 +110,32 @@ Rotação LL. Houve um desequilíbrio do lado esquerdo. Foi realizada um rotaç�
 **20. Inserindo 88**<br><br><img width="845" height="468" alt="image" src="https://github.com/user-attachments/assets/e1d4788a-e1f9-4693-802b-ae61125c7d3e" />
 
 <br> Inserção normal. 
+
+## 2. Remoções
+
+**21. Removendo 4** <br><br><img width="705" height="445" alt="image" src="https://github.com/user-attachments/assets/190356d7-09cf-4b43-bbb8-39b646c8691b" />
+<br> O 4 tem 1 filho, ele ocupa o lugar do 4. Nenhuma rotação necessária
+
+**22. Removendo 29** <br><br><img width="705" height="445" alt="image" src="https://github.com/user-attachments/assets/7b9c5b89-d1ff-490a-8143-f13e538df15c" />
+<br> O 29 tem 2 filhos, usa-se o 55 no lugar do 29
+
+**23. Removendo 100** <br><br><img width="705" height="445" alt="image" src="https://github.com/user-attachments/assets/771efc25-b2b1-48e8-9853-2e1faf4e9363" />
+<br> O 100 tem 2 filhos, usa-se o menor valor da subárvore direita,1312.
+
+**24. Removendo 5** <br><br><img width="705" height="445" alt="image" src="https://github.com/user-attachments/assets/2f967882-b24f-4e1a-8c02-cda8ae914212" />
+<br>
+O 5 tem 2 filhos, usa-se o 8, que é o menor valor da subárvore direita
+
+**25. Removendo -15** <br><br><img width="659" height="382" alt="image" src="https://github.com/user-attachments/assets/3b84802b-dddf-4b12-b270-79585bf801cb" />
+<br> 
+
+**26. Removendo 16** <br><br><img width="659" height="382" alt="image" src="https://github.com/user-attachments/assets/8642047f-2eee-4a47-83bc-c1565f198e4d" />
+<br>
+
+**27. Removendo 55** <br><br><img width="659" height="382" alt="image" src="https://github.com/user-attachments/assets/2a8c809c-459b-4496-836c-5beb0e0bb1e5" />
+<br> O 55 tem 2 filhos, usa-se o 88, que é o sucessor.
+
+
+
+
+
